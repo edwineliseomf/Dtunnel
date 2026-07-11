@@ -54,10 +54,10 @@ apt-get install npm -y
 apt-get install cron -y
 apt-get install screen -y
 apt-get install git -y
-curl -s -L https://raw.githubusercontent.com/edwineliseomf/DTunnelMOD/main/setup_20.x | bash
+curl -s -L https://raw.githubusercontent.com/edwineliseomf/DTunnel/main/setup_20.x | bash
 apt-get install -y nodejs -y
 #=========================
-git clone https://github.com/edwineliseomf/DTunnelMOD.git
+git clone https://github.com/edwineliseomf/DTunnel.git
 cd /root/DTunnel 
 chmod +x pon poff menudt backmod
 mv pon poff menudt backmod /bin
